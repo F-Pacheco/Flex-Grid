@@ -27,6 +27,7 @@ body{
 	margin-bottom: 5px;
 	width: 100%;
 	border-radius: 5px;
+	outline: none;
 }
 .flex-item__items{
 	margin-bottom: 5px;
@@ -44,6 +45,10 @@ body{
 	box-shadow: none;
 }
 .flex-item1>button:focus{
+	outline: none;
+}
+.flex-item1>textarea{
+	resize: none;
 	outline: none;
 }
 .flex-img{
