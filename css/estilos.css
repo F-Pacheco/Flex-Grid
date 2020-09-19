@@ -1,10 +1,10 @@
 body{
-	background-color: #222;
+	background-color: #021C1E;
 }
 											/*CONTACTO*/
 .form-flex-container{
 	display: flex;
-	background-color: #444;
+	background-color:#004445;
 	min-width: 305px;
 	width: 50%;
 	margin: 50px auto;
@@ -28,6 +28,11 @@ body{
 	width: 100%;
 	border-radius: 5px;
 	outline: none;
+	background-color:  #021C1E;
+	border:none;
+	border-bottom: 3px #6FB98F solid;
+	padding: 5px;
+	color: #E3DAC9;
 }
 .flex-item__items{
 	margin-bottom: 5px;
@@ -35,8 +40,8 @@ body{
 	border-radius: 5px;
 }
 .flex-item1>button{
-	background-color: #121212;
-	color: grey;
+	background-color: #6FB98F;
+	color: black;
 	border: none;
 	box-shadow: 0px 8px 15px black;
 	transition: .2s;
@@ -50,10 +55,17 @@ body{
 .flex-item1>textarea{
 	resize: none;
 	outline: none;
+	background-color:  #021C1E;
+	color:#E3DAC9;
+	border:none;
+	border-bottom: 3px #6FB98F solid;
 }
 .flex-img{
 	border-radius: 50%;
-	overflow: hidden;
 	border: .5px solid #121;
+	background-color: #E3DAC9;
+	padding: 20px;
+
 }
+
 
